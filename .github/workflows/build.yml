@@ -44,7 +44,7 @@ jobs:
         id: version-upload
         if: github.ref == 'refs/heads/main'
         with:
-          workspace: raisedevs
+          workspace: esp32
           firmware: arduino-esp32-firmware-example
           binary: .pio/build/esp32/firmware.bin
       # Output the name and some URLs for debugging and quick links
